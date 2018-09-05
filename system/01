@@ -1,0 +1,7 @@
+#In what file can you find the installed version of your Debian?
+
+#In the Debian VM, we can open up a terminal. Using the following command, the
+#version is located in the file
+echo "cat /etc/debian_version"
+#the line: "lsb_release -a" also works and gives more information.
+#source https://www.lowendguide.com/1/using-linux/find-your-debian-version-the-command-line-way/

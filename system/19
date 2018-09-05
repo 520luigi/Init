@@ -1,0 +1,4 @@
+#With the previous command, forbid all others IP
+
+sudo /sbin/iptables -A INPUT -j DROP
+#source: https://www.cyberciti.biz/faq/linux-iptables-drop/

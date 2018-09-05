@@ -1,0 +1,4 @@
+#What command lets you know who is connected to the System?
+
+who
+#source: https://serverfault.com/questions/360296/see-all-logged-in-users-on-debian-server

@@ -1,0 +1,11 @@
+#Write a script which updates all the package sources, then all the packages, and then
+#logs everything in a file named /var/log/update_script.log. Create a scheduled task
+#for this scrip, once per week at 4 AM.
+
+sudo echo "sudo apt-get update && upgrade >> /var/log/update_script.log" >> ~/weeklyupdate.sh
+chmod +x ~/weeklyupdate.sh
+sudo echo "0 4 * * 0 root sh ~/weeklyupdate.sh" | crontab
+
+#for 0 4 * * 0, the last 0 stands for Sunday, one of the day of the week which I randomly
+#took because a day was not specified. Use crontab -e to see command. 
+#Source: https://help.ubuntu.com/community/Repositories/CommandLine

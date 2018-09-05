@@ -1,0 +1,4 @@
+#Find the command which gives the list of firewall rules
+
+sudo iptables -L
+#source: https://www.cyberciti.biz/faq/how-to-list-all-iptables-rules-in-linux/

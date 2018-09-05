@@ -1,0 +1,4 @@
+#Name the command that find, in real time, currently running processes
+
+ps aux
+#source: https://www.cyberciti.biz/faq/show-all-running-processes-in-linux/

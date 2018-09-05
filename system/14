@@ -1,0 +1,4 @@
+#Run the 'tail -f /var/log/syslog' command in the background
+
+sudo tail -f /var/log/syslog &
+#source: https://kb.iu.edu/d/afnz

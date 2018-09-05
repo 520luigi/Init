@@ -1,0 +1,7 @@
+#Use the output of the previous command to find the name and IP address of the device
+#that makes the link between the local network and the web.
+
+#From the previous command, I found the device that makes the link between local
+#to the web is NAT which is Network Address Translation.
+#There are more details on site: https://whatismyipaddress.com/nat
+echo "nat (10.90.1.11)"

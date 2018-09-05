@@ -1,0 +1,6 @@
+#Get the list of the network interfaces of the machine w/o displaying any detail for these interfaces.
+
+ifconfig -l
+
+#source https://superuser.com/questions/203272/list-only-the-device-names-of-all-available-network-interfaces
+#another method that works is: ifconfig -a  | egrep -i "^[a-z]+" | sed "s/: .*//"

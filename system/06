@@ -1,0 +1,4 @@
+#Name the command that reboots the SSH service.
+
+sudo service ssh restart
+#source: https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/

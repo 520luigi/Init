@@ -1,0 +1,7 @@
+#Find the command that kills the background command's process
+
+sudo kill <pid>
+#You need to know the process ID to kill the background command's process.
+#The PID can be found using command "ps -eaf" and if you know the name of process
+#you can just use "pkill <name>"
+#source: https://unix.stackexchange.com/questions/104821/how-to-terminate-a-background-process

@@ -1,0 +1,6 @@
+#Identify the MAC address of the Wi-Fi card.
+
+networksetup -getinfo Wi-Fi | grep Wi-Fi | cut -b 11-
+
+#source http://krypted.com/mac-security/mac-network-commands-cheat-sheet/
+#can also use: networksetup -getinfo Wi-Fi | grep Wi-Fi | sed "s/Wi-Fi ID: //"

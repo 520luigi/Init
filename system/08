@@ -1,0 +1,6 @@
+#What file contains the RSA keys of systems that are authorized to connect via SSH?
+
+#To find the RSA keys, you need to go to /etc/ssh folder
+cat "/etc/ssh/ssh_host_rsa_key"
+#You can also find it ~/.ssh/authorized_keys
+#source: https://www.ssh.com/ssh/host-key

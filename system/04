@@ -1,0 +1,6 @@
+#What command gives you the time since your system was last booted?
+
+who -b
+#this gives the system last booted time, another command "uptime" can give you
+#how long you have been up, log time, and etc.
+#source https://www.cyberciti.biz/tips/linux-last-reboot-time-and-date-find-out.html

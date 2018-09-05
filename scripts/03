@@ -1,0 +1,7 @@
+#Write a script which displays the list of files from the folder given as parameter,
+#sorted by size.
+
+ls -lSh "$1"
+
+#man ls shows that l is for detailed list, S is for sort by size, and h is human readable.
+#Finally, the "$1" is just a placeholder for the parameter you will put in.

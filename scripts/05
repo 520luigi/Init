@@ -1,0 +1,12 @@
+Write a script which displays 42.
+
+echo "
+       :::      ::::::::
+     :+:      :+:    :+:
+    +:+ +:+         +:+
+  +#+  +:+       +#+
+ +#+#+#+#+#+   +#+
+      #+#    #+#
+    ###   ##########"
+
+#if I'm boring then the command: echo "42" works just fine hehehe.

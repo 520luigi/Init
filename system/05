@@ -1,0 +1,4 @@
+#Name the command that determines the state of the SSH service.
+
+sudo service ssh status
+#source: https://www.cyberciti.biz/faq/howto-start-stop-ssh-server/

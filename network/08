@@ -1,0 +1,7 @@
+#Find the provider of slash16.org
+
+#The provider of slash16.org can be found using whois.com website.
+#We can use the website @ https://www.whois.com/whois/slash16.org
+#or use the command
+whois slash16.org
+#if we want information to show on the macos terminal

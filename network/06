@@ -1,0 +1,8 @@
+#Get the complete path of the file that contains the IP address of the DNS server you're using.
+
+#From searching online I learned that you can find the IP address of the DNS
+#server using
+cat /etc/resolv.conf | grep nameserver
+#You can also use nslookup which gives the server address.
+
+#source: https://ithreats.net/2009/06/10/os-x-tips-how-to-check-your-dns-settings/

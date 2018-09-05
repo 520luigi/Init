@@ -1,0 +1,7 @@
+#Find the external IP of 42.fr
+
+#I use nslookup 42.fr to find the external IP. The results are:
+
+163.172.250.13
+163.172.250.11
+163.172.250.12

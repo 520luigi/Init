@@ -1,0 +1,6 @@
+#What file has to be modified to make it permanent?
+
+#We have to change the file
+echo "/etc/hostname"
+#to change the hostname permanently
+#source https://www.cyberciti.biz/faq/debian-change-hostname-permanently/
